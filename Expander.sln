@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expander", "Expander\Expander.csproj", "{8D92D653-075D-448E-99F2-2152F7D02749}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expander.Test", "Expander.Test\Expander.Test.csproj", "{66ED6F6F-B4E2-4ABA-8B72-59C9A1A17713}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D92D653-075D-448E-99F2-2152F7D02749} = {8D92D653-075D-448E-99F2-2152F7D02749}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{8D92D653-075D-448E-99F2-2152F7D02749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D92D653-075D-448E-99F2-2152F7D02749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D92D653-075D-448E-99F2-2152F7D02749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66ED6F6F-B4E2-4ABA-8B72-59C9A1A17713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ED6F6F-B4E2-4ABA-8B72-59C9A1A17713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ED6F6F-B4E2-4ABA-8B72-59C9A1A17713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66ED6F6F-B4E2-4ABA-8B72-59C9A1A17713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
